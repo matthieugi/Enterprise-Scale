@@ -50,6 +50,18 @@
               "ResourceType": "Microsoft.Authorization/roleAssignments"
             },
             {
+              "Id": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/roleAssignments/b51f08a2-ff92-07aa-6088-232319de7672",
+              "Name": "b51f08a2-ff92-07aa-6088-232319de7672",
+              "properties": {
+                "DisplayName": "hitk-rg-caf_launchpad_level0-dwjG1z0zmb0abKAA0sJnN6Q3hVii4ppIvibf1xsAxETRAPoGwdf",
+                "ObjectType": "ServicePrincipal",
+                "PrincipalId": "fddce230-06db-4441-916b-08b54ff17a2d",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+                "RoleDefinitionName": "Owner"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            },
+            {
               "Id": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/roleAssignments/b6336796-9030-42a7-9987-0aafdece70f3",
               "Name": "b6336796-9030-42a7-9987-0aafdece70f3",
               "properties": {
