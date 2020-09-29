@@ -4,12 +4,12 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/roleAssignments/d7de6c85-9fdd-24ee-2838-c449832d202f",
-        "Name": "d7de6c85-9fdd-24ee-2838-c449832d202f",
+        "Id": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/roleAssignments/d1d3d358-1833-0132-654e-a3861b18dd1e",
+        "Name": "d1d3d358-1833-0132-654e-a3861b18dd1e",
         "properties": {
-          "DisplayName": null,
-          "ObjectType": "Unknown",
-          "PrincipalId": "6d20989e-4f69-4f2c-a26e-a9a6d0c28ecf",
+          "DisplayName": "osdv-caf_launchpad_level0",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "f56bf84c-a9f9-4681-b562-2f110676d822",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
           "RoleDefinitionName": "Owner"
         },
