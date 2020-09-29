@@ -4,12 +4,12 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/roleAssignments/d7de6c85-9fdd-24ee-2838-c449832d202f",
-        "Name": "d7de6c85-9fdd-24ee-2838-c449832d202f",
+        "Id": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/roleAssignments/6b3e14ca-06ff-3239-fe68-2c4b6732a0ed",
+        "Name": "6b3e14ca-06ff-3239-fe68-2c4b6732a0ed",
         "properties": {
           "DisplayName": null,
           "ObjectType": "Unknown",
-          "PrincipalId": "6d20989e-4f69-4f2c-a26e-a9a6d0c28ecf",
+          "PrincipalId": "ba2f2c53-53c6-4df8-b408-609cdc4e0bad",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
           "RoleDefinitionName": "Owner"
         },
