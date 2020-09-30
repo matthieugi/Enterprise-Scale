@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/bd8f19df-c05f-4b10-989b-14626666f090/providers/Microsoft.Authorization/roleAssignments/af630007-c925-4925-bc9f-20a33e684cba",
+        "Name": "af630007-c925-4925-bc9f-20a33e684cba",
+        "properties": {
+          "DisplayName": "matthieugirard-Shiseido-landingzones-bd8f19df-c05f-4b10-989b-14626666f090",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "215c967d-5269-40a3-883e-abb28afa72d5",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}
