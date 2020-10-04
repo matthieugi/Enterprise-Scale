@@ -50,12 +50,36 @@
               "ResourceType": "Microsoft.Authorization/roleAssignments"
             },
             {
+              "Id": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/roleAssignments/62493499-bedb-5598-2b0f-d1685a6adf35",
+              "Name": "62493499-bedb-5598-2b0f-d1685a6adf35",
+              "properties": {
+                "DisplayName": "ncqg-caf_launchpad_level0",
+                "ObjectType": "ServicePrincipal",
+                "PrincipalId": "5b7fd1e2-3b85-4813-883e-c4d23010b859",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+                "RoleDefinitionName": "Owner"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            },
+            {
               "Id": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/roleAssignments/d7de6c85-9fdd-24ee-2838-c449832d202f",
               "Name": "d7de6c85-9fdd-24ee-2838-c449832d202f",
               "properties": {
                 "DisplayName": null,
                 "ObjectType": "Unknown",
                 "PrincipalId": "6d20989e-4f69-4f2c-a26e-a9a6d0c28ecf",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+                "RoleDefinitionName": "Owner"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            },
+            {
+              "Id": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/roleAssignments/dc8171a9-23cd-f403-057e-9580166033b0",
+              "Name": "dc8171a9-23cd-f403-057e-9580166033b0",
+              "properties": {
+                "DisplayName": null,
+                "ObjectType": "Unknown",
+                "PrincipalId": "760ce1e2-9180-4eb3-9484-fc11b38c44d4",
                 "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
                 "RoleDefinitionName": "Owner"
               },
@@ -77,8 +101,8 @@
               "Id": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/roleAssignments/d1d3d358-1833-0132-654e-a3861b18dd1e",
               "Name": "d1d3d358-1833-0132-654e-a3861b18dd1e",
               "properties": {
-                "DisplayName": "osdv-caf_launchpad_level0",
-                "ObjectType": "ServicePrincipal",
+                "DisplayName": null,
+                "ObjectType": "Unknown",
                 "PrincipalId": "f56bf84c-a9f9-4681-b562-2f110676d822",
                 "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
                 "RoleDefinitionName": "Owner"
