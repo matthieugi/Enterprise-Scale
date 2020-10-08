@@ -35,26 +35,116 @@
               }
             }
           ],
-          "roleDefinitions": [],
-          "roleAssignments": [
+          "roleDefinitions": [
             {
-              "Id": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/roleAssignments/0c6f09cc-5dcf-49c5-9522-c8f92f088d86",
-              "Name": "0c6f09cc-5dcf-49c5-9522-c8f92f088d86",
+              "Id": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/roleDefinitions/841d8833-a08b-3326-6fca-0cf691a5b03a",
+              "Name": "841d8833-a08b-3326-6fca-0cf691a5b03a",
               "properties": {
-                "DisplayName": null,
-                "ObjectType": "Unknown",
-                "PrincipalId": "1648d04d-f2a4-428a-ace5-d02736b9a9e6",
-                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/17d1049b-9a84-46fb-8f53-869881c3d3ab",
-                "RoleDefinitionName": "Storage Account Contributor"
+                "assignableScopes": [
+                  "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1"
+                ],
+                "description": "Provide addition permissions on top of built-in Contributor role to manage landing zones deployment",
+                "permissions": [
+                  {
+                    "actions": [
+                      "Microsoft.Authorization/roleAssignments/delete",
+                      "Microsoft.Authorization/roleAssignments/read",
+                      "Microsoft.Authorization/roleAssignments/write",
+                      "Microsoft.Authorization/roleDefinitions/delete",
+                      "Microsoft.Authorization/roleDefinitions/read",
+                      "Microsoft.Authorization/roleDefinitions/write",
+                      "microsoft.insights/diagnosticSettings/delete",
+                      "microsoft.insights/diagnosticSettings/read",
+                      "microsoft.insights/diagnosticSettings/write",
+                      "Microsoft.KeyVault/vaults/delete",
+                      "Microsoft.KeyVault/vaults/read",
+                      "Microsoft.KeyVault/vaults/write",
+                      "Microsoft.KeyVault/vaults/accessPolicies/write",
+                      "Microsoft.Network/networkSecurityGroups/delete",
+                      "Microsoft.Network/networkSecurityGroups/read",
+                      "Microsoft.Network/networkSecurityGroups/write",
+                      "Microsoft.Network/networkSecurityGroups/join/action",
+                      "Microsoft.Network/virtualNetworks/subnets/delete",
+                      "Microsoft.Network/virtualNetworks/subnets/read",
+                      "Microsoft.Network/virtualNetworks/subnets/write",
+                      "Microsoft.OperationalInsights/workspaces/delete",
+                      "Microsoft.OperationalInsights/workspaces/read",
+                      "Microsoft.OperationalInsights/workspaces/write",
+                      "Microsoft.OperationalInsights/workspaces/sharedKeys/action",
+                      "Microsoft.OperationsManagement/solutions/delete",
+                      "Microsoft.OperationsManagement/solutions/read",
+                      "Microsoft.OperationsManagement/solutions/write",
+                      "Microsoft.Storage/storageAccounts/delete",
+                      "Microsoft.Storage/storageAccounts/read",
+                      "Microsoft.Storage/storageAccounts/write",
+                      "Microsoft.Storage/storageAccounts/blobServices/containers/delete",
+                      "Microsoft.Storage/storageAccounts/blobServices/containers/read",
+                      "Microsoft.Storage/storageAccounts/blobServices/containers/write",
+                      "Microsoft.Storage/storageAccounts/blobServices/containers/lease/action",
+                      "Microsoft.Storage/storageAccounts/blobServices/read",
+                      "Microsoft.Storage/storageAccounts/listKeys/action",
+                      "Microsoft.Resources/subscriptions/providers/read",
+                      "Microsoft.Resources/subscriptions/read",
+                      "Microsoft.Resources/subscriptions/resourcegroups/delete",
+                      "Microsoft.Resources/subscriptions/resourcegroups/read",
+                      "Microsoft.Resources/subscriptions/resourcegroups/write",
+                      "Microsoft.Network/virtualNetworks/delete",
+                      "Microsoft.Network/virtualNetworks/read",
+                      "Microsoft.Network/virtualNetworks/write"
+                    ],
+                    "dataActions": [
+                      "Microsoft.Storage/storageAccounts/blobServices/containers/blobs/write",
+                      "Microsoft.Storage/storageAccounts/blobServices/containers/blobs/read",
+                      "Microsoft.Storage/storageAccounts/blobServices/containers/blobs/delete"
+                    ],
+                    "notActions": [],
+                    "notdataActions": []
+                  }
+                ],
+                "roleName": "ihhz-rg-caf-launchpad-qlqpw"
               },
-              "ResourceType": "Microsoft.Authorization/roleAssignments"
+              "ResourceType": "Microsoft.Authorization/roleDefinitions"
             },
+            {
+              "Id": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/roleDefinitions/20eabaaa-3a81-8dfa-0c52-008cab420441",
+              "Name": "20eabaaa-3a81-8dfa-0c52-008cab420441",
+              "properties": {
+                "assignableScopes": [
+                  "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1"
+                ],
+                "description": "Provide addition permissions on top of built-in Contributor role to manage landing zones deployment",
+                "permissions": [
+                  {
+                    "actions": [
+                      "Microsoft.Authorization/roleAssignments/delete",
+                      "Microsoft.Authorization/roleAssignments/read",
+                      "Microsoft.Authorization/roleAssignments/write",
+                      "Microsoft.Authorization/roleDefinitions/delete",
+                      "Microsoft.Authorization/roleDefinitions/read",
+                      "Microsoft.Authorization/roleDefinitions/write",
+                      "Microsoft.Resources/subscriptions/providers/read"
+                    ],
+                    "dataActions": [
+                      "Microsoft.Storage/storageAccounts/blobServices/containers/blobs/write",
+                      "Microsoft.Storage/storageAccounts/blobServices/containers/blobs/read",
+                      "Microsoft.Storage/storageAccounts/blobServices/containers/blobs/delete"
+                    ],
+                    "notActions": [],
+                    "notdataActions": []
+                  }
+                ],
+                "roleName": "ihhz-rg-caf-launchpad-contributor-dqvin"
+              },
+              "ResourceType": "Microsoft.Authorization/roleDefinitions"
+            }
+          ],
+          "roleAssignments": [
             {
               "Id": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/roleAssignments/62493499-bedb-5598-2b0f-d1685a6adf35",
               "Name": "62493499-bedb-5598-2b0f-d1685a6adf35",
               "properties": {
-                "DisplayName": "ncqg-caf_launchpad_level0",
-                "ObjectType": "ServicePrincipal",
+                "DisplayName": null,
+                "ObjectType": "Unknown",
                 "PrincipalId": "5b7fd1e2-3b85-4813-883e-c4d23010b859",
                 "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
                 "RoleDefinitionName": "Owner"
@@ -80,6 +170,18 @@
                 "DisplayName": null,
                 "ObjectType": "Unknown",
                 "PrincipalId": "760ce1e2-9180-4eb3-9484-fc11b38c44d4",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+                "RoleDefinitionName": "Owner"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            },
+            {
+              "Id": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/roleAssignments/b6fdc111-15cf-4e53-1b43-4a52815c5c0a",
+              "Name": "b6fdc111-15cf-4e53-1b43-4a52815c5c0a",
+              "properties": {
+                "DisplayName": "sijq-caf_launchpad_level0",
+                "ObjectType": "ServicePrincipal",
+                "PrincipalId": "9a7bf967-cfcd-4dab-9f71-26d1e8a8edc3",
                 "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
                 "RoleDefinitionName": "Owner"
               },
