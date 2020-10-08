@@ -4,12 +4,12 @@
   "parameters": {
     "input": {
       "value": {
-        "Id": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/roleAssignments/62493499-bedb-5598-2b0f-d1685a6adf35",
-        "Name": "62493499-bedb-5598-2b0f-d1685a6adf35",
+        "Id": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/roleAssignments/b6fdc111-15cf-4e53-1b43-4a52815c5c0a",
+        "Name": "b6fdc111-15cf-4e53-1b43-4a52815c5c0a",
         "properties": {
-          "DisplayName": null,
-          "ObjectType": "Unknown",
-          "PrincipalId": "5b7fd1e2-3b85-4813-883e-c4d23010b859",
+          "DisplayName": "sijq-caf_launchpad_level0",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "9a7bf967-cfcd-4dab-9f71-26d1e8a8edc3",
           "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
           "RoleDefinitionName": "Owner"
         },
