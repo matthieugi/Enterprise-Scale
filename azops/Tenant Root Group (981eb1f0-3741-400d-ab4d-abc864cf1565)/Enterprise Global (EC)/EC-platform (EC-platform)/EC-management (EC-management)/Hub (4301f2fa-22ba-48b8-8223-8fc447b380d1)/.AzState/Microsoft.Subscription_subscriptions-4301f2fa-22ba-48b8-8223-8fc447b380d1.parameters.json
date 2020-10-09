@@ -200,6 +200,18 @@
               "ResourceType": "Microsoft.Authorization/roleAssignments"
             },
             {
+              "Id": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/roleAssignments/34a164e1-c8a3-490c-bd5b-2a90643cae16",
+              "Name": "34a164e1-c8a3-490c-bd5b-2a90643cae16",
+              "properties": {
+                "DisplayName": "etjv-caf_launchpad_level0",
+                "ObjectType": "ServicePrincipal",
+                "PrincipalId": "dd5ab809-7cae-4412-a3bd-1e312b8b546d",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+                "RoleDefinitionName": "Owner"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            },
+            {
               "Id": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/roleAssignments/d1d3d358-1833-0132-654e-a3861b18dd1e",
               "Name": "d1d3d358-1833-0132-654e-a3861b18dd1e",
               "properties": {
