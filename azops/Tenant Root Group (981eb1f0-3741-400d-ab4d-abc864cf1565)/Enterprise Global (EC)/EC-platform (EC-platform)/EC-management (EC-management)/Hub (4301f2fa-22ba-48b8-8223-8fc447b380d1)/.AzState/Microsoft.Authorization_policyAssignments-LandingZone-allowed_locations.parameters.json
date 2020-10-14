@@ -1,0 +1,39 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": {
+          "principalId": "d4946536-7430-497b-97a0-66cbd54fc132",
+          "tenantId": "981eb1f0-3741-400d-ab4d-abc864cf1565",
+          "type": "SystemAssigned"
+        },
+        "Location": "westeurope",
+        "Name": "LandingZone-allowed_locations",
+        "PolicyAssignmentId": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/policyAssignments/LandingZone-allowed_locations",
+        "Properties": {
+          "Description": "This policy enables you to restrict the locations your organization can specify when deploying resources. Use to enforce your geo-compliance requirements. Excludes resource groups, Microsoft.AzureActiveDirectory/b2cDirectories, and resources that use the 'global' region.",
+          "DisplayName": "Allowed locations",
+          "NotScopes": null,
+          "Parameters": {
+            "listOfAllowedLocations": {
+              "value": [
+                "westeurope"
+              ]
+            }
+          },
+          "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/e56962a6-4747-49cd-b67b-bf8b01975c4c",
+          "Scope": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1"
+        },
+        "ResourceId": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/policyAssignments/LandingZone-allowed_locations",
+        "ResourceName": "LandingZone-allowed_locations",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        }
+      }
+    }
+  }
+}
