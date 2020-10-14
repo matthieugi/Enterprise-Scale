@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/roleAssignments/ccd41323-c4a6-e1ff-a539-ded79b0b4e5b",
+        "Name": "ccd41323-c4a6-e1ff-a539-ded79b0b4e5b",
+        "properties": {
+          "DisplayName": "bjmz-caf_launchpad_level0",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "15971e67-96ba-4f5d-aaab-627c40b49fe8",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

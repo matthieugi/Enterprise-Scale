@@ -33,6 +33,58 @@
                 "name": "A1",
                 "tier": "Standard"
               }
+            },
+            {
+              "Identity": {
+                "principalId": "d4946536-7430-497b-97a0-66cbd54fc132",
+                "tenantId": "981eb1f0-3741-400d-ab4d-abc864cf1565",
+                "type": "SystemAssigned"
+              },
+              "Location": "westeurope",
+              "Name": "LandingZone-allowed_locations",
+              "PolicyAssignmentId": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/policyAssignments/LandingZone-allowed_locations",
+              "Properties": {
+                "Description": "This policy enables you to restrict the locations your organization can specify when deploying resources. Use to enforce your geo-compliance requirements. Excludes resource groups, Microsoft.AzureActiveDirectory/b2cDirectories, and resources that use the 'global' region.",
+                "DisplayName": "Allowed locations",
+                "NotScopes": null,
+                "Parameters": {
+                  "listOfAllowedLocations": {
+                    "value": [
+                      "westeurope"
+                    ]
+                  }
+                },
+                "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/e56962a6-4747-49cd-b67b-bf8b01975c4c",
+                "Scope": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1"
+              },
+              "ResourceId": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/policyAssignments/LandingZone-allowed_locations",
+              "ResourceName": "LandingZone-allowed_locations",
+              "ResourceType": "Microsoft.Authorization/policyAssignments",
+              "Sku": {
+                "name": "A0",
+                "tier": "Free"
+              }
+            },
+            {
+              "Identity": null,
+              "Location": null,
+              "Name": "LandingZone-deny-public-ip-addresses",
+              "PolicyAssignmentId": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/policyAssignments/LandingZone-deny-public-ip-addresses",
+              "Properties": {
+                "Description": "Network interfaces should not have public IPs https://portal.azure.com/#blade/Microsoft_Azure_Policy/PolicyDetailBlade/definitionId/%2Fproviders%2FMicrosoft.Authorization%2FpolicyDefinitions%2F83a86a26-fd1f-447c-b59d-e51f44264114",
+                "DisplayName": "Deny Public IP address objects",
+                "NotScopes": null,
+                "Parameters": null,
+                "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/83a86a26-fd1f-447c-b59d-e51f44264114",
+                "Scope": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1"
+              },
+              "ResourceId": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/policyAssignments/LandingZone-deny-public-ip-addresses",
+              "ResourceName": "LandingZone-deny-public-ip-addresses",
+              "ResourceType": "Microsoft.Authorization/policyAssignments",
+              "Sku": {
+                "name": "A0",
+                "tier": "Free"
+              }
             }
           ],
           "roleDefinitions": [
@@ -140,6 +192,42 @@
           ],
           "roleAssignments": [
             {
+              "Id": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/roleAssignments/ccd41323-c4a6-e1ff-a539-ded79b0b4e5b",
+              "Name": "ccd41323-c4a6-e1ff-a539-ded79b0b4e5b",
+              "properties": {
+                "DisplayName": "bjmz-caf_launchpad_level0",
+                "ObjectType": "ServicePrincipal",
+                "PrincipalId": "15971e67-96ba-4f5d-aaab-627c40b49fe8",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+                "RoleDefinitionName": "Owner"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            },
+            {
+              "Id": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/roleAssignments/50561f46-fc86-b3a3-2ac6-74489393b843",
+              "Name": "50561f46-fc86-b3a3-2ac6-74489393b843",
+              "properties": {
+                "DisplayName": "ofud-caf_launchpad_level0",
+                "ObjectType": "ServicePrincipal",
+                "PrincipalId": "35bca75b-f7e9-4764-93a2-1aa9d06aa57a",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+                "RoleDefinitionName": "Owner"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            },
+            {
+              "Id": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/roleAssignments/8f673803-715d-0dc9-0895-acfe7f18a611",
+              "Name": "8f673803-715d-0dc9-0895-acfe7f18a611",
+              "properties": {
+                "DisplayName": "GRP-GOVERNANCE-teamprefix-envprefix-OWNER",
+                "ObjectType": "Group",
+                "PrincipalId": "3dde3b14-abaf-4079-88e6-fa53a3392b93",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+                "RoleDefinitionName": "Owner"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            },
+            {
               "Id": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/roleAssignments/62493499-bedb-5598-2b0f-d1685a6adf35",
               "Name": "62493499-bedb-5598-2b0f-d1685a6adf35",
               "properties": {
@@ -236,6 +324,18 @@
               "ResourceType": "Microsoft.Authorization/roleAssignments"
             },
             {
+              "Id": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/roleAssignments/58b53498-f368-e46e-a369-32ed04115bf5",
+              "Name": "58b53498-f368-e46e-a369-32ed04115bf5",
+              "properties": {
+                "DisplayName": "GRP-GOVERNANCE-teamprefix-envprefix-READER",
+                "ObjectType": "Group",
+                "PrincipalId": "7ba1173c-bbf8-49c2-8d01-c55f9c1ef3ee",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/acdd72a7-3385-48ef-bd42-f606fba81ae7",
+                "RoleDefinitionName": "Reader"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            },
+            {
               "Id": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/roleAssignments/b6336796-9030-42a7-9987-0aafdece70f3",
               "Name": "b6336796-9030-42a7-9987-0aafdece70f3",
               "properties": {
@@ -254,6 +354,18 @@
                 "DisplayName": null,
                 "ObjectType": "Unknown",
                 "PrincipalId": "242757f7-c8e1-47e9-8fca-dc127df69fc2",
+                "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+                "RoleDefinitionName": "Contributor"
+              },
+              "ResourceType": "Microsoft.Authorization/roleAssignments"
+            },
+            {
+              "Id": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/providers/Microsoft.Authorization/roleAssignments/c18c78dd-821f-2834-553a-ddf494889cc3",
+              "Name": "c18c78dd-821f-2834-553a-ddf494889cc3",
+              "properties": {
+                "DisplayName": "GRP-GOVERNANCE-teamprefix-envprefix-CONTRIBUTOR",
+                "ObjectType": "Group",
+                "PrincipalId": "4a5835a7-844f-4c84-90d3-1b7f913c7f1d",
                 "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
                 "RoleDefinitionName": "Contributor"
               },
