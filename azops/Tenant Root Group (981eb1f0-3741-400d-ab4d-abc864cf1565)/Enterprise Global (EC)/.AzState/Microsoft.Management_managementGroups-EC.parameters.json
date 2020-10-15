@@ -11341,200 +11341,15 @@
               "SubscriptionId": null
             }
           ],
-          "policyAssignments": [
-            {
-              "Identity": {
-                "principalId": "2eabc72d-f6a3-4664-9ca8-daae5dccfe43",
-                "tenantId": "981eb1f0-3741-400d-ab4d-abc864cf1565",
-                "type": "SystemAssigned"
-              },
-              "Location": "westeurope",
-              "Name": "a03b86cd51754ed98e5b63f3",
-              "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/EC/providers/Microsoft.Authorization/policyAssignments/a03b86cd51754ed98e5b63f3",
-              "Properties": {
-                "Description": null,
-                "DisplayName": "Deploy-AzureBackup-on-VMs",
-                "NotScopes": null,
-                "Parameters": {},
-                "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/EC/providers/Microsoft.Authorization/policyDefinitions/Deploy-AzureBackup-on-VM",
-                "Scope": "/providers/Microsoft.Management/managementGroups/EC"
-              },
-              "ResourceId": "/providers/Microsoft.Management/managementGroups/EC/providers/Microsoft.Authorization/policyAssignments/a03b86cd51754ed98e5b63f3",
-              "ResourceName": "a03b86cd51754ed98e5b63f3",
-              "ResourceType": "Microsoft.Authorization/policyAssignments",
-              "Sku": {
-                "name": "A0",
-                "tier": "Free"
-              }
-            },
-            {
-              "Identity": {
-                "principalId": "070f9333-261c-4ceb-8b56-d54fc86f3473",
-                "tenantId": "981eb1f0-3741-400d-ab4d-abc864cf1565",
-                "type": "SystemAssigned"
-              },
-              "Location": "westeurope",
-              "Name": "Deploy-ASC-Monitoring",
-              "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/EC/providers/Microsoft.Authorization/policyAssignments/Deploy-ASC-Monitoring",
-              "Properties": {
-                "Description": "ASC-Monitoring",
-                "DisplayName": "ASC-Monitoring",
-                "NotScopes": null,
-                "Parameters": null,
-                "PolicyDefinitionId": "/providers/Microsoft.Authorization/policySetDefinitions/1f3afdf9-d0c9-4c3d-847f-89da613e70a8",
-                "Scope": "/providers/Microsoft.Management/managementGroups/EC"
-              },
-              "ResourceId": "/providers/Microsoft.Management/managementGroups/EC/providers/Microsoft.Authorization/policyAssignments/Deploy-ASC-Monitoring",
-              "ResourceName": "Deploy-ASC-Monitoring",
-              "ResourceType": "Microsoft.Authorization/policyAssignments",
-              "Sku": {
-                "name": "A0",
-                "tier": "Free"
-              }
-            },
-            {
-              "Identity": {
-                "principalId": "4afae2f2-d447-4482-a393-8a99928b66dc",
-                "tenantId": "981eb1f0-3741-400d-ab4d-abc864cf1565",
-                "type": "SystemAssigned"
-              },
-              "Location": "westeurope",
-              "Name": "Deploy-ASC-Security",
-              "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/EC/providers/Microsoft.Authorization/policyAssignments/Deploy-ASC-Security",
-              "Properties": {
-                "Description": "Deploy-ASC",
-                "DisplayName": "Deploy-ASC",
-                "NotScopes": null,
-                "Parameters": {
-                  "pricingTierAppServices": {
-                    "value": "Standard"
-                  },
-                  "pricingTierContainerRegistry": {
-                    "value": "Standard"
-                  },
-                  "pricingTierKeyVaults": {
-                    "value": "Standard"
-                  },
-                  "pricingTierKubernetesService": {
-                    "value": "Standard"
-                  },
-                  "pricingTierSqlServers": {
-                    "value": "Standard"
-                  },
-                  "pricingTierStorageAccounts": {
-                    "value": "Standard"
-                  },
-                  "pricingTierVms": {
-                    "value": "Standard"
-                  }
-                },
-                "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/EC/providers/Microsoft.Authorization/policyDefinitions/Deploy-ASC-Standard",
-                "Scope": "/providers/Microsoft.Management/managementGroups/EC"
-              },
-              "ResourceId": "/providers/Microsoft.Management/managementGroups/EC/providers/Microsoft.Authorization/policyAssignments/Deploy-ASC-Security",
-              "ResourceName": "Deploy-ASC-Security",
-              "ResourceType": "Microsoft.Authorization/policyAssignments",
-              "Sku": {
-                "name": "A0",
-                "tier": "Free"
-              }
-            },
-            {
-              "Identity": {
-                "principalId": "9a2a7ef9-a0c7-4552-a56e-86c09f5a9516",
-                "tenantId": "981eb1f0-3741-400d-ab4d-abc864cf1565",
-                "type": "SystemAssigned"
-              },
-              "Location": "westeurope",
-              "Name": "Deploy-AzActivity-Log",
-              "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/EC/providers/Microsoft.Authorization/policyAssignments/Deploy-AzActivity-Log",
-              "Properties": {
-                "Description": "Deploy-AzActivity-Log",
-                "DisplayName": "Deploy-AzActivity-Log",
-                "NotScopes": null,
-                "Parameters": {
-                  "logAnalytics": {
-                    "value": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/resourcegroups/ec-mgmt/providers/microsoft.operationalinsights/workspaces/ec-la-4301f2fa-22ba-48b8-8223-8fc447b380d1"
-                  }
-                },
-                "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/EC/providers/Microsoft.Authorization/policyDefinitions/Deploy-Diagnostics-ActivityLog",
-                "Scope": "/providers/Microsoft.Management/managementGroups/EC"
-              },
-              "ResourceId": "/providers/Microsoft.Management/managementGroups/EC/providers/Microsoft.Authorization/policyAssignments/Deploy-AzActivity-Log",
-              "ResourceName": "Deploy-AzActivity-Log",
-              "ResourceType": "Microsoft.Authorization/policyAssignments",
-              "Sku": {
-                "name": "A0",
-                "tier": "Free"
-              }
-            },
-            {
-              "Identity": {
-                "principalId": "20dd328b-2c4f-4dd5-9a0f-469632f0e76b",
-                "tenantId": "981eb1f0-3741-400d-ab4d-abc864cf1565",
-                "type": "SystemAssigned"
-              },
-              "Location": "westeurope",
-              "Name": "Deploy-Resource-Diag",
-              "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/EC/providers/Microsoft.Authorization/policyAssignments/Deploy-Resource-Diag",
-              "Properties": {
-                "Description": "Deploy-Resource-Diag",
-                "DisplayName": "Deploy-Resource-Diag",
-                "NotScopes": null,
-                "Parameters": {
-                  "logAnalytics": {
-                    "value": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/resourcegroups/ec-mgmt/providers/microsoft.operationalinsights/workspaces/ec-la-4301f2fa-22ba-48b8-8223-8fc447b380d1"
-                  }
-                },
-                "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/EC/providers/Microsoft.Authorization/policySetDefinitions/Deploy-Diag-LogAnalytics",
-                "Scope": "/providers/Microsoft.Management/managementGroups/EC"
-              },
-              "ResourceId": "/providers/Microsoft.Management/managementGroups/EC/providers/Microsoft.Authorization/policyAssignments/Deploy-Resource-Diag",
-              "ResourceName": "Deploy-Resource-Diag",
-              "ResourceType": "Microsoft.Authorization/policyAssignments",
-              "Sku": {
-                "name": "A0",
-                "tier": "Free"
-              }
-            },
-            {
-              "Identity": {
-                "principalId": "0c420de3-c318-419b-bd68-ed8d1abb3c8f",
-                "tenantId": "981eb1f0-3741-400d-ab4d-abc864cf1565",
-                "type": "SystemAssigned"
-              },
-              "Location": "westeurope",
-              "Name": "Deploy-VM-Monitoring",
-              "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/EC/providers/Microsoft.Authorization/policyAssignments/Deploy-VM-Monitoring",
-              "Properties": {
-                "Description": "Deploy-VM-Monitoring",
-                "DisplayName": "Deploy-VM-Monitoring",
-                "NotScopes": null,
-                "Parameters": {
-                  "logAnalytics_1": {
-                    "value": "/subscriptions/4301f2fa-22ba-48b8-8223-8fc447b380d1/resourcegroups/ec-mgmt/providers/microsoft.operationalinsights/workspaces/ec-la-4301f2fa-22ba-48b8-8223-8fc447b380d1"
-                  }
-                },
-                "PolicyDefinitionId": "/providers/Microsoft.Authorization/policySetDefinitions/55f3eceb-5573-4f18-9695-226972c6d74a",
-                "Scope": "/providers/Microsoft.Management/managementGroups/EC"
-              },
-              "ResourceId": "/providers/Microsoft.Management/managementGroups/EC/providers/Microsoft.Authorization/policyAssignments/Deploy-VM-Monitoring",
-              "ResourceName": "Deploy-VM-Monitoring",
-              "ResourceType": "Microsoft.Authorization/policyAssignments",
-              "Sku": {
-                "name": "A0",
-                "tier": "Free"
-              }
-            }
-          ],
+          "policyAssignments": [],
           "roleDefinitions": [],
           "roleAssignments": [
             {
               "Id": "/providers/Microsoft.Management/managementGroups/EC/providers/Microsoft.Authorization/roleAssignments/58550bf5-0d30-5bbe-b2b6-993c9042ceb0",
               "Name": "58550bf5-0d30-5bbe-b2b6-993c9042ceb0",
               "properties": {
-                "DisplayName": "Deploy-VM-Monitoring",
-                "ObjectType": "ServicePrincipal",
+                "DisplayName": null,
+                "ObjectType": "Unknown",
                 "PrincipalId": "0c420de3-c318-419b-bd68-ed8d1abb3c8f",
                 "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
                 "RoleDefinitionName": "Owner"
@@ -11557,8 +11372,8 @@
               "Id": "/providers/Microsoft.Management/managementGroups/EC/providers/Microsoft.Authorization/roleAssignments/fe01f6ae-e399-5af1-b634-ecf74f057b7a",
               "Name": "fe01f6ae-e399-5af1-b634-ecf74f057b7a",
               "properties": {
-                "DisplayName": "Deploy-Resource-Diag",
-                "ObjectType": "ServicePrincipal",
+                "DisplayName": null,
+                "ObjectType": "Unknown",
                 "PrincipalId": "20dd328b-2c4f-4dd5-9a0f-469632f0e76b",
                 "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
                 "RoleDefinitionName": "Owner"
@@ -11569,8 +11384,8 @@
               "Id": "/providers/Microsoft.Management/managementGroups/EC/providers/Microsoft.Authorization/roleAssignments/6eb41ed1-84e5-5d3a-a87d-99589e02d10d",
               "Name": "6eb41ed1-84e5-5d3a-a87d-99589e02d10d",
               "properties": {
-                "DisplayName": "Deploy-ASC-Security",
-                "ObjectType": "ServicePrincipal",
+                "DisplayName": null,
+                "ObjectType": "Unknown",
                 "PrincipalId": "4afae2f2-d447-4482-a393-8a99928b66dc",
                 "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
                 "RoleDefinitionName": "Owner"
@@ -11581,8 +11396,8 @@
               "Id": "/providers/Microsoft.Management/managementGroups/EC/providers/Microsoft.Authorization/roleAssignments/2d95d15f-8bfb-5885-8534-b949223785dc",
               "Name": "2d95d15f-8bfb-5885-8534-b949223785dc",
               "properties": {
-                "DisplayName": "Deploy-AzActivity-Log",
-                "ObjectType": "ServicePrincipal",
+                "DisplayName": null,
+                "ObjectType": "Unknown",
                 "PrincipalId": "9a2a7ef9-a0c7-4552-a56e-86c09f5a9516",
                 "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
                 "RoleDefinitionName": "Owner"
@@ -11593,8 +11408,8 @@
               "Id": "/providers/Microsoft.Management/managementGroups/EC/providers/Microsoft.Authorization/roleAssignments/9969aace-1f89-488b-9ab0-4151bd22527a",
               "Name": "9969aace-1f89-488b-9ab0-4151bd22527a",
               "properties": {
-                "DisplayName": "Deploy-VM-Monitoring",
-                "ObjectType": "ServicePrincipal",
+                "DisplayName": null,
+                "ObjectType": "Unknown",
                 "PrincipalId": "0c420de3-c318-419b-bd68-ed8d1abb3c8f",
                 "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/92aaf0da-9dab-42b6-94a3-d43ce8d16293",
                 "RoleDefinitionName": "Log Analytics Contributor"
@@ -11605,8 +11420,8 @@
               "Id": "/providers/Microsoft.Management/managementGroups/EC/providers/Microsoft.Authorization/roleAssignments/9969aace-1f89-488b-9ab0-4151bd225278",
               "Name": "9969aace-1f89-488b-9ab0-4151bd225278",
               "properties": {
-                "DisplayName": "Deploy-VM-Monitoring",
-                "ObjectType": "ServicePrincipal",
+                "DisplayName": null,
+                "ObjectType": "Unknown",
                 "PrincipalId": "0c420de3-c318-419b-bd68-ed8d1abb3c8f",
                 "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/92aaf0da-9dab-42b6-94a3-d43ce8d16293",
                 "RoleDefinitionName": "Log Analytics Contributor"
@@ -11617,8 +11432,8 @@
               "Id": "/providers/Microsoft.Management/managementGroups/EC/providers/Microsoft.Authorization/roleAssignments/b6b9ee63-4f5f-4445-b1a9-38603c151511",
               "Name": "b6b9ee63-4f5f-4445-b1a9-38603c151511",
               "properties": {
-                "DisplayName": "a03b86cd51754ed98e5b63f3",
-                "ObjectType": "ServicePrincipal",
+                "DisplayName": null,
+                "ObjectType": "Unknown",
                 "PrincipalId": "2eabc72d-f6a3-4664-9ca8-daae5dccfe43",
                 "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
                 "RoleDefinitionName": "Contributor"
