@@ -26,49 +26,7 @@
         "properties": {
           "policyDefinitions": [],
           "policySetDefinitions": [],
-          "policyAssignments": [
-            {
-              "Identity": {
-                "principalId": "5018cf01-89aa-4172-972c-9ef83e8c22e3",
-                "tenantId": "981eb1f0-3741-400d-ab4d-abc864cf1565",
-                "type": "SystemAssigned"
-              },
-              "Location": "westeurope",
-              "Name": "Deploy-Log-Analytics",
-              "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/EC-management/providers/Microsoft.Authorization/policyAssignments/Deploy-Log-Analytics",
-              "Properties": {
-                "Description": "Deploy-Log-Analytics",
-                "DisplayName": "Deploy-Log-Analytics",
-                "NotScopes": null,
-                "Parameters": {
-                  "automationAccountName": {
-                    "value": "EC-a-4301f2fa-22ba-48b8-8223-8fc447b380d1"
-                  },
-                  "automationRegion": {
-                    "value": "westeurope"
-                  },
-                  "rgName": {
-                    "value": "EC-mgmt"
-                  },
-                  "workspaceName": {
-                    "value": "EC-la-4301f2fa-22ba-48b8-8223-8fc447b380d1"
-                  },
-                  "workspaceRegion": {
-                    "value": "westeurope"
-                  }
-                },
-                "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/EC/providers/Microsoft.Authorization/policyDefinitions/Deploy-Log-Analytics",
-                "Scope": "/providers/Microsoft.Management/managementGroups/EC-management"
-              },
-              "ResourceId": "/providers/Microsoft.Management/managementGroups/EC-management/providers/Microsoft.Authorization/policyAssignments/Deploy-Log-Analytics",
-              "ResourceName": "Deploy-Log-Analytics",
-              "ResourceType": "Microsoft.Authorization/policyAssignments",
-              "Sku": {
-                "name": "A0",
-                "tier": "Free"
-              }
-            }
-          ],
+          "policyAssignments": [],
           "roleDefinitions": [],
           "roleAssignments": [
             {
@@ -87,8 +45,8 @@
               "Id": "/providers/Microsoft.Management/managementGroups/EC-management/providers/Microsoft.Authorization/roleAssignments/fb86396b-4873-5438-a7f7-fdb2c209abda",
               "Name": "fb86396b-4873-5438-a7f7-fdb2c209abda",
               "properties": {
-                "DisplayName": "Deploy-Log-Analytics",
-                "ObjectType": "ServicePrincipal",
+                "DisplayName": null,
+                "ObjectType": "Unknown",
                 "PrincipalId": "5018cf01-89aa-4172-972c-9ef83e8c22e3",
                 "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
                 "RoleDefinitionName": "Owner"
@@ -99,8 +57,8 @@
               "Id": "/providers/Microsoft.Management/managementGroups/EC-management/providers/Microsoft.Authorization/roleAssignments/7e61529c-e0ff-4297-a95d-c78a29ff4eab",
               "Name": "7e61529c-e0ff-4297-a95d-c78a29ff4eab",
               "properties": {
-                "DisplayName": "Deploy-Log-Analytics",
-                "ObjectType": "ServicePrincipal",
+                "DisplayName": null,
+                "ObjectType": "Unknown",
                 "PrincipalId": "5018cf01-89aa-4172-972c-9ef83e8c22e3",
                 "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
                 "RoleDefinitionName": "Contributor"
