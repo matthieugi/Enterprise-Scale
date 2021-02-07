@@ -1,0 +1,14 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "input": {
+        "value": {
+          "Name": "EC-helloworld",
+          "DisplayName": "EC-Helloworld",
+          "ParentId": "/providers/Microsoft.Management/managementGroups/981eb1f0-3741-400d-ab4d-abc864cf1565",
+          "Type": "/providers/Microsoft.Management/managementGroups"
+        }
+      }
+    }
+  }
